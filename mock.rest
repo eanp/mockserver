@@ -1,0 +1,13 @@
+@url = http://localhost
+@port = 3004
+###
+GET {{url}}:{{port}}/users
+###
+POST {{url}}:{{port}}/posts
+Content-Type: application/json
+
+{
+    "title" :   "test the json mock server",
+    "author" : "tester 3"
+}
+###

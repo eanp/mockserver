@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "test the json mock server",
+      "author": "tester",
+      "id": 2
+    },
+    {
+      "title": "test the json mock server",
+      "author": "tester 3",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+    "id":1,
+    "name": "ean",
+    "email" : "ean@ean.id",
+    "password": "3456789"
+},
+{
+        "id":2,
+    "name": "ean 2",
+    "email" : "ean 2@ean.id",
+    "password": "3456789"
+  }
+]
+}
