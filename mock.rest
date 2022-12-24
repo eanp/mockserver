@@ -1,5 +1,5 @@
 @url = http://localhost
-@port = 3004
+@port = 3000
 ###
 GET {{url}}:{{port}}/users
 ###
